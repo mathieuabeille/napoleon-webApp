@@ -36,7 +36,7 @@ class ContentLeft extends Component{
     </div>
      ))
   } else {
-    return <div>Loading...</div>
+    return <div></div>
   }
 
   }

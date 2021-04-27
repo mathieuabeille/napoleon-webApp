@@ -10,7 +10,7 @@ class Hero extends Component{
 
   hero() {
     if(this.props.datas.records) {
-      return this.props.datas.records.map(item => (
+      return this.props.datas.records.filter(item => item.fields.Name === "hero").map(item => (
           <div
             className="wrapper"
             key={item.id}
@@ -28,7 +28,7 @@ class Hero extends Component{
         ))
     }
     else {
-      return ( <div>Loading</div>
+      return ( <div>Loading...</div>
         )
     }
   }
