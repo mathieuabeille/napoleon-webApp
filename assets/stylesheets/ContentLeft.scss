@@ -1,0 +1,61 @@
+
+  .benefit-content-left {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    background-color:black;
+    display: flex;
+    animation: 40s zoom-background infinite cubic-bezier(1,0,.75,1) alternate;
+    background-size: cover;
+  }
+
+  .benefit-text-left{
+    height: 80vh;
+    width: 100vw;
+    padding: 3rem;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    h3{
+    font-size: 4.768rem;
+    font-weight: 800;
+    opacity: 0.7;
+    color: white;
+    text-shadow: 0 0 25px rgba(255,255,255,0.3);
+  }
+    h3:hover{
+    color: white;
+    opacity: 0.9;
+    text-shadow: 0 0 75px rgba(255,255,255,0.5);
+        transition: all 0.1s ease-out;
+
+  }
+  p{
+    opacity: 0.6;
+    color: white;
+
+font-size: 3.052rem;
+    text-shadow: 0 0 25px rgba(255,255,255,0.3);
+  }
+  }
+
+  .benefit-illustration-left{
+    height: 20vh;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
