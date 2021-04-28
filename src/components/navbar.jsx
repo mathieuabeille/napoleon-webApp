@@ -1,7 +1,6 @@
 import React,{Component, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/stylesheets/navbar.scss';
-import logo from '../../assets/img/logo-white.png';
 
 
 
@@ -21,8 +20,7 @@ function NavBar() {
 
   return(
     <div className="navigation" >
-        <img src={logo} alt="logo"  />
-    </div>
+Toto    </div>
     )
   };
 
