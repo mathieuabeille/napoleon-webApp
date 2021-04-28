@@ -28,6 +28,7 @@
     "react-dom": "16.0.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
+    "react-scripts": "^4.0.3",
     "react-tooltip": "^4.2.18",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
@@ -35,6 +36,6 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --config webpack.config.js"
   }
 }
